@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1576074012649' stop='1576074046736'>
+    <name>ENDEVOUR CYPRESS AUTOMATION : vrifying the page content od child window</name>
+    <title>ENDEVOUR CYPRESS AUTOMATION : vrifying the page content od child window</title>
+    <test-cases>
+        <test-case start='1576074012649' status='passed' stop='1576074046735'>
+            <name>verify that Cypress web site child window page content has the text WHY CYPRESS  : WhyCypress_FirstDataSets</name>
+            <title>verify that Cypress web site child window page content has the text WHY CYPRESS  : WhyCypress_FirstDataSets</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

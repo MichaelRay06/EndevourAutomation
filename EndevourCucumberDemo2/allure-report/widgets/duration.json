@@ -1,0 +1,11 @@
+[ {
+  "uid" : "b7c5989e0aae1d04",
+  "name" : "verify that page content of a Cypress web site : Firstdata",
+  "time" : {
+    "start" : 1576062156021,
+    "stop" : 1576062247079,
+    "duration" : 91058
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

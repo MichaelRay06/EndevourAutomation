@@ -1,0 +1,22 @@
+{
+  "379622e7fca66f17f53e1af9b2ae3144" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7c5989e0aae1d04",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+      "time" : {
+        "start" : 1576062156021,
+        "stop" : 1576062247079,
+        "duration" : 91058
+      }
+    } ]
+  }
+}

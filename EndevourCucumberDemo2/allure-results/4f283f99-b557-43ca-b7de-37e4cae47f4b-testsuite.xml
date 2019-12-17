@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1576073440271' stop='1576073454999'>
+    <name>ENDEVOUR CYPRESS SITE TEST AUTOMATION</name>
+    <title>ENDEVOUR CYPRESS SITE TEST AUTOMATION</title>
+    <test-cases>
+        <test-case start='1576073440273' status='passed' stop='1576073454998'>
+            <name>verify that page content of a Cypress web site : urlContet_FirstDataSets</name>
+            <title>verify that page content of a Cypress web site : urlContet_FirstDataSets</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

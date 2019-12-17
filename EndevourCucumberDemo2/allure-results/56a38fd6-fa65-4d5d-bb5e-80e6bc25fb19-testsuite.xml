@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1576082457592' stop='1576082474479'>
+    <name>ENDEVOUR CYPRESS SITE TEST AUTOMATION: verifying  the landing page(current URL) has the text cypress</name>
+    <title>ENDEVOUR CYPRESS SITE TEST AUTOMATION: verifying  the landing page(current URL) has the text cypress</title>
+    <test-cases>
+        <test-case start='1576082457592' status='failed' stop='1576082474477'>
+            <name>the cypress landing page url contain the text cypress : urlCurrent_Content_FirstDataSets</name>
+            <title>the cypress landing page url contain the text cypress : urlCurrent_Content_FirstDataSets</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: ENOENT: no such file or directory, open 'C:\Users\Owner\Desktop\EndevourCucumberDemo2\screenshots\chrome-ENDEVOUR CYPRESS AUTOMATION : vrifying the page content of child window contains the text Why Cypress verify that Cypress web site child window page content has the text WHY CYPRESS  : WhyCypress_FirstDataSets.png'</message>
+                <stack-trace>Error: ENOENT: no such file or directory, open 'C:\Users\Owner\Desktop\EndevourCucumberDemo2\screenshots\chrome-ENDEVOUR CYPRESS AUTOMATION : vrifying the page content of child window contains the text Why Cypress verify that Cypress web site child window page content has the text WHY CYPRESS  : WhyCypress_FirstDataSets.png'</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

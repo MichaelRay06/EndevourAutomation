@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1576074351953' stop='1576074361207'>
+    <name>ENDEVOUR CYPRESS SITE TEST AUTOMATION: verifying  the landing page(current URL) has the text cypress</name>
+    <title>ENDEVOUR CYPRESS SITE TEST AUTOMATION: verifying  the landing page(current URL) has the text cypress</title>
+    <test-cases>
+        <test-case start='1576074351954' status='passed' stop='1576074361207'>
+            <name>the cypress landing page url contain the text cypress : urlCurrent_Content_FirstDataSets</name>
+            <title>the cypress landing page url contain the text cypress : urlCurrent_Content_FirstDataSets</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

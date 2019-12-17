@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ENDEVOUR CYPRESS SITE TEST AUTOMATION",
+    "children" : [ {
+      "name" : "verify that page content of a Cypress web site : Firstdata",
+      "uid" : "b7c5989e0aae1d04",
+      "parentUid" : "1f490022c2f0683f01328e3b97c925c9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1576062156021,
+        "stop" : 1576062247079,
+        "duration" : 91058
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1f490022c2f0683f01328e3b97c925c9"
+  } ]
+}

@@ -1,0 +1,113 @@
+[
+  {
+    "description": "      //  Background:\n      // Given I navigated to site",
+    "keyword": "Feature",
+    "name": "validating the cypress site page contents",
+    "line": 1,
+    "id": "validating-the-cypress-site-page-contents",
+    "tags": [],
+    "uri": "features\\cypressSiteTest.feature",
+    "elements": [
+      {
+        "id": "validating-the-cypress-site-page-contents;as-a-user,-i-am-validating-the-that-the-landing-page-of-a-cypress-site-url-conatins-the-text-cypress",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "as a user, I am validating the that the landing page of a cypress site URL conatins the text cypress",
+        "tags": [
+          {
+            "name": "@currentURL_Content",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I navigated to site",
+            "match": {
+              "location": "stepDefinations\\verifyLandingPageURL_step.ts:24"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5007000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout._time.default.setTimeout [as _onTimeout] (C:\\Users\\Owner\\Desktop\\EndevourCucumberTypeScriptCypressProject\\node_modules\\cucumber\\lib\\user_code_runner.js:76:18)\n    at ontimeout (timers.js:436:11)\n    at tryOnTimeout (timers.js:300:5)\n    at listOnTimeout (timers.js:263:5)\n    at Timer.processTimers (timers.js:223:10)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I typed in \"cypress\" in the search box",
+            "match": {
+              "location": "stepDefinations\\verifyLandingPageURL_step.ts:32"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "enter to search text",
+            "match": {
+              "location": "stepDefinations\\verifyLandingPageURL_step.ts:40"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I am on google search links, I select and click on link to search",
+            "match": {
+              "location": "stepDefinations\\verifyLandingPageURL_step.ts:49"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I am on cypress landing page I verify the \"JavaScript End to End Testing Framework cypress.io\"",
+            "match": {
+              "location": "stepDefinations\\verifyLandingPageURL_step.ts:56"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I could verify the current url has a text \"cypress\"",
+            "match": {
+              "location": "stepDefinations\\verifyLandingPageURL_step.ts:68"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

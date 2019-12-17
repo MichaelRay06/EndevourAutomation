@@ -1,0 +1,2 @@
+var {setDefaultTimout}= require ('cucumber');
+setDefaultTimout(60*1000);

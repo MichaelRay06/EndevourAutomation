@@ -1,0 +1,123 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "testing cypress site.",
+    "line": 1,
+    "id": "testing-cypress-site.",
+    "tags": [],
+    "uri": "features\\test2.feature",
+    "elements": [
+      {
+        "id": "testing-cypress-site.;the-cypress-site",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "the cypress site",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to web site",
+            "match": {
+              "location": "features\\stepdefinations\\test2.Step.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I type in \"cypress\"",
+            "match": {
+              "location": "features\\stepdefinations\\test2.Step.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "click to enter",
+            "match": {
+              "location": "features\\stepdefinations\\test2.Step.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "click the cypress link",
+            "match": {
+              "location": "features\\stepdefinations\\test2.Step.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I validated the page title as \"JavaScript End to End Testing Framework\"",
+            "match": {
+              "location": "features\\stepdefinations\\test2.Step.js:46"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1728000000,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, div:nth-child(2) > .rc .S3Uucc)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\mrmra\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\mrmra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\mrmra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\mrmra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\mrmra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\mrmra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\mrmra\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\mrmra\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\mrmra\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n    at Object.clickGoogleLink (C:\\Users\\mrmra\\OneDrive\\Desktop\\newProCucumber3\\features\\pages\\SelectGoogleLink.js:14:21)\n    at World.<anonymous> (C:\\Users\\mrmra\\OneDrive\\Desktop\\newProCucumber3\\features\\stepdefinations\\test2.Step.js:40:22)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "get the current url as \"cypress\"",
+            "match": {
+              "location": "features\\stepdefinations\\test2.Step.js:56"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "click on dock link",
+            "match": {
+              "location": "features\\stepdefinations\\test2.Step.js:81"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
